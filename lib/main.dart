@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children:  [
-          Text(text, style: TextStyle(fontFamily: "Poppins", fontSize: 25.0, fontWeight: FontWeight.bold, color: Colors.white, decoration: TextDecoration.none),),
+          Text(text, style: const TextStyle(fontFamily: "Poppins", fontSize: 25.0, fontWeight: FontWeight.bold, color: Colors.white, decoration: TextDecoration.none),),
           const SizedBox(height: 15.0,),
           ElevatedButton(
               onPressed: (){},
